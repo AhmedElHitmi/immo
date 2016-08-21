@@ -5,18 +5,18 @@ body{
 /************************ Header ***********************/
 header{
   border: 2px solid black;
-  background-color: grey;
+  background-color: #000;
   height: 110px;
 
 }
 
-figure{
+/*figure{
   border: 2px solid black;
   background-color: yellow;
   height: 100px;
   width: 100%;
 
-}
+}*/
 
 .logo{
   margin:auto;
@@ -52,7 +52,7 @@ img{
   margin: 70px 5px 0 5px;
   padding: 0 5px;
   height: 400px;
-  background-color: green;
+  background-color: lightgrey;
   color:#FFF;
   border: 1px solid black;
 }
@@ -129,3 +129,74 @@ footer{
        color: #434343;
        border-color: #434343;
    }
+/************************ /Footer ***********************************/
+
+/************************ apropos.html ***********************************/
+.map {
+     min-width: 300px;
+     min-height: 300px;
+     width: 100%;
+     height: 100%;
+ }
+
+ .header {
+     background-color: #F5F5F5;
+     color: #36A0FF;
+     height: 70px;
+     font-size: 27px;
+     padding: 10px;
+ }
+
+.contact{
+    margin-top: 200px;
+}
+
+/************************ /apropos.html ***********************************/
+
+/************************ locations.html ***********************************/
+
+    .gmnoprint img {
+        max-width: none;
+    }
+
+    .panel:hover {
+        background-color: rgb(237, 245, 252);
+    }
+
+    .map {
+        min-width: 300px;
+        min-height: 470px;
+        width: 100%;
+        height: 100%;
+    }
+
+    img {
+        max-width: 110%;
+        height: auto;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    .rowcolor {
+        background-color: #CCCCCC;
+    }
+
+    .padall {
+        padding: 10px;
+    }
+
+    .padbig {
+        padding: 20px;
+    }
+
+    .icon {
+        font-size: 23px;
+        color: #197BB5;
+    }
+.location{
+  margin: 100px 0;
+  background-color: #000;
+}
+/************************ /locations.html ***********************************/
